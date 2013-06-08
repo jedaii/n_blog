@@ -24,7 +24,12 @@ end
 
 gem 'jquery-rails'
 gem "bootstrap-sass", ">= 2.3.0.0"
-
+gem "simple_form", ">= 2.1.0"
+gem "cancan", ">= 1.6.9"
+gem "rolify", ">= 3.2.0"
+gem "better_errors", ">= 0.7.2", :group => :development
+gem 'letter_opener'
+gem 'twitter-bootstrap-rails'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

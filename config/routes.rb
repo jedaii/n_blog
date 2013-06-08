@@ -1,5 +1,20 @@
 NBlog::Application.routes.draw do
-  get "home/index"
+
+  resources :categories
+
+
+  resources :posts
+
+
+  #get "users/index"
+
+  #get "users/show"
+
+  #get "users/update"
+
+  #get "users/destroy"
+
+  #get "home/index"
 
   authenticated :user do
     root :to => 'home#index'
